@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 from Trajectory import Trajectory, geo_info 
-from SrMReader import SrMReader # 假设 SrMReader 模块已提供
+from SrMReader import SrMReader 
 import os
 from classix import CLASSIX
 import pandas as pd # 导入 pandas 库
